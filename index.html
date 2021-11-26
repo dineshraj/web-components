@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>Web Components</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      h3 {
+        color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Some website</h1>
+
+    <h2>Section</h2>
+
+    <h3>Information dudes! (H3)</h3>
+    <p>
+      Look at my very important information. Look at it now. <br> 
+      Please. Please look. I worked so hard on it. <br>
+      I assure you it is important. I beg you. Why won't you look?! I hate my life...
+    </p>
+
+    <h2>Users</h2>
+    <user-card name="Sam Bason" avatar="sam.jpg">
+      <div slot="email">sam.bason@bbc.co,uk</div>
+      <div slot="phone">555-5555</div>
+    </user-card>
+    <user-card name="Rob Paton" avatar="rob.jpg">
+      <div slot="email">rob.paton@bbc.co.uk</div>
+      <div slot="phone">555-5555</div>
+    </user-card>
+
+    <script src="userCard.js"></script>
+
+  </body>
+</html>
